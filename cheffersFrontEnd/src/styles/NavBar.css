@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Bebas+Neue&display=swap');
+
+.navBar {
+font-family: 'Asap', sans-serif;
+/* color: white; */
+text-transform: uppercase;
+position: absolute;
+width: 100%;
+height: auto;
+top: 0;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+/* background-color: #0D0D0D; */
+}
+
+.navbar-dark{
+    color: white;
+    background-color: #0D0D0D;
+}
+.navbar-light{
+    color: black;
+    background-color: white;
+}
+
+.homepage-title {
+    font-family: 'Asap', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: -20%;
+}
+
+.navBar h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    position: relative; 
+    margin: 1%;
+    margin-top: -3.5%;
+    margin-left: -18%;
+}
+
+
+
+.navbar-light h1 {
+    color: #4d4a4a;
+}
+
+.navBar h1:hover{
+    color: #5acfcf;
+    transform: scale(1.1);
+    cursor: grab;
+}
+
+.navBar button {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+    /* background: #0D0D0D; */
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: #0D0D0D;
+    /* color: white; */
+}
+
+.navbar-dark button {
+    background: #0D0D0D;
+    color: white; 
+    /* box-shadow: 0px 0px 1px 1px rgb(92, 92, 92); */
+}
+
+.navbar-light button {
+    background: white;
+    color: black;
+    /* box-shadow: 0px 0px 1px 1px rgb(92, 92, 92);  */
+    
+}
+
+.navBar button:hover {
+    background: #5acfcf;
+    transition: 0.2s;
+}
+
+.navbar-light button:hover{
+    color: white;
+    transition: 0.2s;
+    background: #5acfcf;
+}
+
+.navbar-light h1:hover{
+    color: #5acfcf;
+    transform: scale(1.1);
+    cursor: grab
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 2.5vw;
+    font-size: 16px;
+    margin: 2%;
+    /* background: #D2CFCF; */
+    box-shadow: 0px 4px 4px rgba(129, 129, 129, 0.25), inset 0px 4px 4px rgba(129, 129, 129, 0.25);
+    border-radius: 32px;
+    border: none;
+    outline: none;
+    padding-left: 1%;
+}
+
+
+.searchBar-light{
+    background: #ecebeb;
+    color: white;
+}
+
+.searchBar-dark{
+    background: #222222;
+    color: white;
+    box-shadow: 0px 0px 1px 1px rgb(92, 92, 92);
+}
+
+.searchBar:hover {
+    color: #4D4B4B;
+    background: white;
+    transition: 0.2s;
+}
+.searchBar-dark:hover {
+    color: white;
+    background: rgb(63, 63, 63);
+    transition: 0.2s;
+}
+
+.menuLinks {
+    /* background-color: #0D0D0D; */
+    /* color: white; */
+    margin-top: 3%;
+    margin-left: 59%;
+    margin-right: 20%;
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    width: auto;
+    padding: 2%;
+    z-index: 1;
+    white-space: nowrap;
+
+}
+
+.menuLinks-dark{
+    background-color: #0D0D0D; 
+    color: white;
+}
+.menuLinks-light{
+    background-color: white; 
+    color: black;
+}
+
+.mealTypeMenu, .dietsMenu, .spiceRatingMenu, .cookingTimeMenu {
+    display: block;
+}
+
+
+.mealTypeLinks, .dietsLinks, .spiceRatingLinks, .cookingTimeLinks{
+    display: none;    
+}
+
+.mealTypeMenu:hover .mealTypeLinks {
+    display: block;
+}
+
+.menuLinks html {
+    padding: 3%;
+}
+
+.menuLinks html:hover {
+    background: #5acfcf;
+    
+}
+
+.menuLinks-light html:hover {
+    background: #5acfcf;
+    color: white;
+    
+}
+
+
+.dietsMenu:hover .dietsLinks {
+    display: block;
+}
+
+.spiceRatingMenu:hover .spiceRatingLinks {
+    display: block;
+}
+
+.cookingTimeMenu:hover .cookingTimeLinks {
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+    .menuLinks {
+        margin-top: 0%;
+        margin-left: 60%;
+    
+    } 
+
+    .searchBar{
+    width: 20%;
+    height: 2.5vw;
+    margin-top: 3%;
+    }
+
+    .navBar h1 {
+        font-size: 36px;
+        margin-top: -3%;
+        margin-left: -11%;
+    }
+
+    .homepage-title {
+        margin-top: 7%;
+        margin-left: -14%;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .menuLinks {
+        margin-top: 0%;
+        margin-left: 53%;
+    
+    } 
+
+    .searchBar{
+    width: 20%;
+    height: 3vw;
+    margin-top: 4%;
+    }
+
+    .navBar h1 {
+        font-size: 36px;
+        margin-top: -3%;
+        margin-left: -11%;
+    }
+
+    .homepage-title {
+        margin-top: 10%;
+        margin-left: -14%;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .menuLinks {
+        margin-top: 1%;
+        margin-left: 48%;
+        font-size: 12px;
+    
+    }
+
+    .searchBar{
+    width: 20%;
+    height: 3.5vw;
+    margin-top: 4%;
+    }
+
+    .navBar h1 {
+        font-size: 18px;
+        margin-top: -2%;
+        margin-left: -5%;
+    }
+
+    .navBar button {
+        font-size: 8px;
+        margin-top: 3%;
+        margin-bottom: 4%;
+    }
+
+    .homepage-title {
+        margin-left: -7%;
+    }
+
+}

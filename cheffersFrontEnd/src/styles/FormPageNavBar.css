@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Bebas+Neue&display=swap');
+
+
+.FormPageNavBar {
+    font-family: 'Asap', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #0D0D0D;
+    padding-bottom: 10px;
+    /* padding-right: 20%; */
+    
+    
+}
+
+.form-nav-dark{
+    background-color: #0D0D0D;
+    color: white;
+}
+
+.form-nav-light{
+    background-color: white;
+    color: black;
+}
+    
+.FormPageNavBar h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    position: relative; 
+    margin: 1%;
+    margin-top: -3%;
+    margin-left: -20%;
+    margin-right: 60%;
+}
+
+.form-nav-light h1 {
+    color: #4b4b4b;;
+}
+    
+.FormPageNavBar h1:hover{
+    color: #5acfcf;
+    transform: scale(1.1);
+    cursor: grab
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .FormPageNavBar h1 {
+        font-size: 34px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .FormPageNavBar h1 {
+        font-size: 36px;
+        margin-top: -3%;
+        margin-left: -12%;
+        margin-right: 44%;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .FormPageNavBar h1 {
+        margin-top: -3%;
+        margin-left: -2%;
+        margin-right: 40%;
+        font-size: 26px;
+    }
+}

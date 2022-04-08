@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Roboto:wght@700&display=swap');
+
+.card{
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    border-radius: 6px;
+    margin: auto;
+    background-color: #f7a2ba;
+    font-family: 'Asap', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 5%;
+}
+
+.card-dark{
+    color: black;
+}
+
+.food-image{
+    height: 6em;
+    width:auto;
+}
+
+
+.card-light{
+    box-shadow: 0 4px 8px 0 rgba(221, 221, 221, 0.2);
+}
+
+.card-dark:hover {
+    /* box-shadow: 5px 10px 18px 5px rgba(2, 48, 252, 0.2); */
+    box-shadow: 0px 10px 12px 0px rgb(90, 90, 90);
+  }
+  .card-light:hover {
+    /* box-shadow: 5px 10px 18px 5px rgba(2, 48, 252, 0.2); */
+    box-shadow: 0px 10px 12px 0px rgb(179, 179, 179);
+  }
+
+ 
+.card-vegan {
+    background-color: #8FD9D9;
+}
+
+.card-vegetarian {
+    background-color: #c1e48c;
+}
+
+.card-meat {
+    background-color: #e9b2f7;
+}
+
+.card-pesc{
+    background-color:#fac588;
+}
+
+.card button {
+    margin-left: -90%;
+    margin-top: -10%;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #a04d65;
+}
+
+.card button:hover {
+    color: #81394d;
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+.card-vegan button {
+    color: #487a7a;
+}
+
+.card-vegan button:hover {
+    color: #2d5f5f;
+}
+
+.card-vegetarian button {
+    color: #677e44;
+}
+
+.card-vegetarian button:hover {
+    color: #516435;
+}
+
+.card-meat button{
+    color: #8d519b;
+}
+
+.card-meat button:hover {
+    color: #773c85;
+}
+
+.card-pesc button{
+    color:#8d6639;
+}
+
+.card-pesc button:hover{
+    color:#7a5933;
+}
+
+.link-to-recipe{
+    width: 100%;
+    height: 60%;
+    color: black;
+}
+a, a:link, a:visited, a:active, a:hover {
+    /* color: black; */
+    border:0!important;
+    text-decoration: none!important;
+}
+
+.icon{
+    height: 2.3em;
+    z-index: 5;
+    width: auto;
+    padding-left:0.5em;
+    padding-right:0.5em;
+    margin-bottom: 4em;
+}
+
+.recipe-icon-block{
+    height:100%;
+    width:100%;
+    margin-top: 0.1em;
+    z-index: 5;
+    display: inline-block;
+}

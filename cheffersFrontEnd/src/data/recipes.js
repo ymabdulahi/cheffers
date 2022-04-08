@@ -1,0 +1,67 @@
+export const recipes = [
+    {
+    "id": 1,
+    "name": "Spaghetti",
+    "cuisine": "ITALIAN",
+    "vegetarian": true,
+    "vegan": false,
+    "meatOnly": false,
+    "pescatarian": false,
+    "mealType": "DINNER",
+    "spiceRating": "MILD",
+    "cookingTime": 20,
+    "instructions": "1) Boil the pasta, drain. \n 2) Make the cheese sauce by combining butter, and flour, then whisking in the milk products. \n 3) Cook the sauce until it’s nice and thick. \n 4) Add in shredded cheeses, stir well. \n 5) Combine cheese sauce with cooked pasta. \n 6) Transfer half of the mac and cheese to a baking dish, sprinkle with more shredded cheese. \n 7) Top with the rest of the mac and cheese, top with more shredded cheese. \n 8) Bake to thoroughly enjoy!"
+  },
+  {
+    "id": 2,
+    "name": "Apple Pie",
+    "cuisine": "BRITISH",
+    "vegetarian": true,
+    "vegan": false,
+    "meatOnly": false,
+    "pescatarian": false,
+    "mealType": "DESSERT",
+    "spiceRating": "SWEET",
+    "cookingTime": 150,
+    "instructions": "1) Peel and slice 1kg apples. \n 2) Mix 225g butter and 50g sugar in a large bowl. \n 3) Break in a whole egg and a yolk (keep the white for glazing later). Beat together for just under 1 min – it will look a bit like scrambled egg. \n 4) Now work in the flour with a wooden spoon, a third at a time, until it’s beginning to clump up, then finish gathering it together with your hands. \n 5) Gently work the dough into a ball, wrap in cling film, and chill for 45 mins. Now mix the 140g/5oz sugar, the cinnamon and flour for the filling in a bowl that is large enough to take the apples later. \n 6) After the pastry has chilled, heat the oven to 190C/fan 170C/gas 5. Lightly beat the egg white with a fork. Cut off a third of the pastry and keep it wrapped while you roll out the rest, and use this to line a pie tin – 20-22cm round and 4cm deep – leaving a slight overhang. \n 7) Roll the remaining third to a circle about 28cm in diameter. Pat the apples dry with kitchen paper, and tip them into the bowl with the cinnamon-sugar mix. Give a quick mix with your hands and immediately pile high into the pastry-lined tin. \n 8) Brush a little water around the pastry rim and lay the pastry lid over the apples pressing the edges together to seal. Trim the edge with a sharp knife and make 5 little slashes on top of the lid for the steam to escape. (Can be frozen at this stage.) \n 9) Brush it all with the egg white and sprinkle it with caster sugar. Bake for 40-45 mins, until golden, then remove and let it sit for 5-10 mins. \n 10) Sprinkle with more sugar and serve while still warm from the oven with softly whipped cream. \n 11) Beware - it’s a diabetes trap"
+  },
+  {
+    "id": 3,
+    "name": "Hummus",
+    "cuisine": "ARABIC",
+    "vegetarian": true,
+    "vegan": true,
+    "meatOnly": false,
+    "pescatarian": false,
+    "mealType": "SNACK",
+    "spiceRating": "MILD",
+    "cookingTime": 10,
+    "instructions": "1) Drain the chickpeas 2)Bake garlic in oven until soft and remove from skin\n 3)Add ingredients to a food processor and blend"
+  },
+  {
+    "id": 5,
+    "name": "Vietnamese Lemongrass Chicken",
+    "cuisine": "VIETNAM",
+    "vegetarian": false,
+    "vegan": false,
+    "meatOnly": true,
+    "pescatarian": false,
+    "mealType": "LUNCH",
+    "spiceRating": "MEDIUM",
+    "cookingTime": 25,
+    "instructions": "1) Cut 4 chicken thighs in bite sizes and set aside. \n 2) Pill first and second layers of ½ a lemongrass as needed; thinly slice and very finely chop it. This step is very important for pleasant texture of lemongrass. Set aside. \n 3) Roughly chop 4 cloves of garlic and 2 chilies and thinly slice one shallot. Set aside. \n 4) In a small mixing bowl, add all sauce ingredients and whisk until 2 tbsp sugar has dissolved. Set aside. \n 5) Heat a wok over high heat and add oil; swirl to coat. Add chicken, skin side down and cook for 5 minutes without touching. This way chicken skin will turn out nice golden brown and crispy. Turn it over and cook for an additional 1 to 2 minutes or until the chicken is fully cooked.  \n 6) Turn off heat for now and remove excess oil from wok by scooping out with a spoon to another bowl. Leave only 2 Tbs. oil in wok to keep cooking with. \n 7) Turn your stove back to high heat and add lemongrass, garlic, chili and shallot into the wok. Stir fry for 1 to 2 minutes or until all the vegetables are softened and you can smell a beautiful aroma. \n 8) Add in sauce we made earlier and stir fry until sauce has thicken, chicken’s coated evenly with sauce, about 1 minute. Remove from heat. \n 9) Serve with warm cooked Jasmine rice, sliced cucumber, and some fresh coriander."
+  },
+  {
+    "id": 6,
+    "name": "Grilled Cheese and Scrambled Egg",
+    "cuisine": "BRITISH",
+    "vegetarian": true,
+    "vegan": false,
+    "meatOnly": false,
+    "pescatarian": false,
+    "mealType": "BREAKFAST",
+    "spiceRating": "MILD",
+    "cookingTime": 20,
+    "instructions": "1) Whisk eggs, cayenne and salt in a small bowl \n 2) Heat butter in a pan, and add eggs to cook for 1 minute \n 3) Divide cheese between 2 slices of bread and top with egg mixture. Close up sandwiches \n 4)Toast sandwiches until golden brown, about 3 minutes per side!"
+  },
+]

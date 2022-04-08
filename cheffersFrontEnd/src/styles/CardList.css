@@ -1,0 +1,35 @@
+.cardList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: start;
+    gap: 1rem;
+    width:100%;
+    justify-content: center;
+    /* grid-template-areas: */
+    margin-top: 2%;
+    z-index: 0;
+        
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .cardList {
+      margin-top: 4%;
+      grid-template-columns: repeat(auto-fit, 200px);
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .cardList {
+      margin-top: 20%;
+      
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .cardList {
+      margin-top: 8%;
+      grid-template-columns: repeat(auto-fit, 200px);
+    }
+  }

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Roboto:wght@700&display=swap');
+
+.homepage-title{
+  margin-top:5em;
+  text-align:center;
+}
+
+.homepage-title-dark{
+color: white;
+}
+
+.homepage-title-light{
+color:rgb(56, 56, 56);
+}
+
+.recipe-instructions{
+  white-space: pre-line;
+}
+
+
+.recipe-page{
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  border-radius: 6px;
+  /* background-color: rgb(85, 85, 85); */
+  /* margin: 2em; */
+  padding: 2em;
+}
+
+.recipe-page h1 {
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 15%;
+  margin-top: -5%;
+  margin-bottom: 5%;
+}
+
+.recipe-page h3 {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+.recipe-page h2 {
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  margin-left: -1%;
+  margin-top: 1%;
+}
+
+.rec-pg-light{
+  background-color: #8FD9D9;
+}
+.rec-pg-dark{
+  background-color:#8FD9D9;
+}
+
+.cooking-instructions{
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 16px;
+  font-family: 'Asap', sans-serif;
+  margin-left: 3%;
+}
+
+.ingredientPageTitle{
+  margin-top: 3em;
+  margin-left:25%
+}
+
+.recipePageTitle{
+  margin-top: 3em;
+  margin-left:25%
+}
+
+
+
+.recipe-title-dark{
+  color: white;
+}
+
+.recipe-title-light{
+  color: black;
+}
+
+.ing-title-dark{
+  color: white;
+}
+
+.ing-title-light{
+  color: black;
+}
+
+.rec-pg-light{
+  background-color: #8FD9D9;
+  color: #215353;
+}
+
+.rec-pg-dark{
+  background-color: #8FD9D9;
+  color: #215353;
+}
+
+#recipeButton {
+    width:25%;
+    margin-left: 5%;
+    padding: 15px 1px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+    transition-duration: 0.4s;
+    border-radius: 32px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+#recipeButton:hover {
+  background-color: #0e7e7e; 
+    color: white;
+
+}
+
+@media only screen and (max-width: 375px) {
+  .recipe-page{
+    margin-top: 20%;
+  }
+}
